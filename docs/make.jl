@@ -10,7 +10,7 @@ makedocs(
 # for more information.
 deploydocs(
     deps = Deps.pip("pygments", "mkdocs", "python-markdown-math"),
-    repo = "github.com/nchaudhr/MLforISP",
+    repo = "github.com/nchaudhr/MLforISP.jl",
     julia  = "0.5",
     osname = "linux"
     # ...
