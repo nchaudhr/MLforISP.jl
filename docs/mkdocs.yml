@@ -2,7 +2,7 @@
 #   http://www.mkdocs.org/user-guide/configuration/
 
 site_name:        MLforISP.jl
-#repo_url:         https://github.com/nchaudhr/MLforISP
+#repo_url:         https://github.com/nchaudhr/MLforISP.jl
 #site_description: Description...
 #site_author:      USER_NAME
 
