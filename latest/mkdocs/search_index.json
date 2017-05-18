@@ -1,0 +1,19 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "MLforISP.jl\n\n\nDocumentation for MLforISP\n\n\n\n\nIndex", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#mlforispjl", 
+            "text": "Documentation for MLforISP", 
+            "title": "MLforISP.jl"
+        }, 
+        {
+            "location": "/#index", 
+            "text": "", 
+            "title": "Index"
+        }
+    ]
+}
