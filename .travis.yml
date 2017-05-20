@@ -14,7 +14,7 @@ notifications:
 #  - if [[ -a .git/shallow ]]; then git fetch --unshallow; fi
 #  - julia -e 'Pkg.clone(pwd()); Pkg.build("MLforISP"); Pkg.test("MLforISP"; coverage=true)'
 after_success:
-  - julia -e julia -e 'Pkg.add("Documenter")'
+  - julia -e 'Pkg.add("Documenter")'
   - julia -e 'cd(Pkg.dir("MLforISP")); include(joinpath("docs", "make.jl"))'
   # push coverage results to Coveralls
   #- julia -e 'cd(Pkg.dir("MLforISP")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(Coveralls.process_folder())'
